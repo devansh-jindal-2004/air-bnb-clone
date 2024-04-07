@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router({mergeParams: true});
-const wrapasync = require("../middleware/wrapasync.js");
+const wrapasync = require("../middleware/wrapAsync.js");
 const passport = require("passport");
 const saveRedirectURL = require("../middleware/saveRedirectURL.js");
 const redirectHome = require("../middleware/redirectHome.js");
